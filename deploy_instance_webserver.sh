@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 apt update
-apt upgrade
+# Careful with dependencies when using this
+apt -y upgrade
 apt install -y git
 apt install -y apache2
 cat <<EOF > /var/www/html/index.html
