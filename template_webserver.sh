@@ -3,7 +3,7 @@
 PATH_GIT="/root/"
 PATH_WEB="/var/www/html/"
 apt update
-apt upgrade
+apt -y upgrade
 # We always git
 apt install -y git
 # Download our Demo stuff
