@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Note: sudo is not necessary as the Startup script is always run as root
 PATH_GIT="/root/"
 PATH_WEB="/var/www/html/"

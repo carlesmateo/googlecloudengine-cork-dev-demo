@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 apt update
 # Careful with dependencies when using this
 apt -y upgrade
