@@ -1,6 +1,6 @@
 #!/bin/bash
 # Note: sudo is not necessary as the Startup script is always run as root
-PATH_GIT="/root/"
+PATH_GIT="/root/cork-demo/"
 PATH_WEB="/var/www/html/"
 apt update
 apt -y upgrade
@@ -17,6 +17,6 @@ git clone https://github.com/carlesmateo/googlecloudengine-cork-dev-demo.git ${P
 # Copy to right place
 cp ${PATH_GIT}index.php ${PATH_WEB}
 mkdir ${PATH_WEB}img
-cp ${PATH_GIT}*.png ${PATH_WEB}
+cp ${PATH_GIT}img/*.png ${PATH_WEB}img/
 # Delete the original Apache file
 rm ${PATH_WEB}index.html
