@@ -7,11 +7,11 @@ apt -y upgrade
 # We always git
 apt install -y git
 # Nice tools to have
-apt -y install htop ncdu mc lynx fatrace iperf
+apt install -y htop ncdu mc lynx fatrace iperf
 # LAMP Installation
-apt -y install apache2
-apt -y install mysql-server
-apt -y install php libapache2-mod-php
+apt install -y apache2
+apt install -y mysql-server
+apt install -y php libapache2-mod-php
 # Download our Demo stuff
 git clone https://github.com/carlesmateo/googlecloudengine-cork-dev-demo.git ${PATH_GIT}
 # Copy to right place
